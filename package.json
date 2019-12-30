@@ -1,0 +1,24 @@
+{
+  "name": "womenaidofcentralma",
+  "version": "1.0.0",
+  "description": "this is the website for WomenAid of Central MA",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/EmilyHao1/womenaidofcentralma.git"
+  },
+  "keywords": [
+    "womenaid",
+    "central",
+    "MA"
+  ],
+  "author": "Emily Hao",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/EmilyHao1/womenaidofcentralma/issues"
+  },
+  "homepage": "https://github.com/EmilyHao1/womenaidofcentralma#readme"
+}
