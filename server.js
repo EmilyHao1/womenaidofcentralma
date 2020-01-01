@@ -19,6 +19,9 @@ var server = http.createServer (function (req, res) {
         case '/events.html':
             sendFile(res, 'src/events.html')
             break
+        case '/about.html':
+            sendFile(res, 'src/about.html')
+            break
         case '/HowToHelp.html':
             sendFile(res, 'src/HowToHelp.html')
             break
@@ -42,6 +45,12 @@ var server = http.createServer (function (req, res) {
             break
         case '/css/magnific-popup.css':
             sendFile(res, 'css/maginfic-popup.css', 'text/css')
+            break
+        case '/css/owl.carousel.min.css':
+            sendFile(res, 'css/owl.carousel.min.css', 'text/css')
+            break
+        case '/css/owl.theme.default.min.css':
+            sendFile(res, 'css/owl.theme.default.min.css', 'text/css')
             break
         case '/js/main.js':
             sendFile(res, 'js/main.js', 'text/javascript')
