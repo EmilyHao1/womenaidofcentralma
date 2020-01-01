@@ -49,45 +49,62 @@ var server = http.createServer (function (req, res) {
         case '/js/modernizr-2.6.2.min.js':
             sendFile(res, 'js/modernizr-2.6.2.min.js', 'text/javascript')
             break
-
-        case '/img/sleeping.jpg':
-            sendFile(res, 'public/img/sleeping.jpg', 'image/jpg')
+        case '/js/jquery.min.js':
+            sendFile(res, 'js/jquery.min.js', 'text/javascript')
             break
-        case '/img/sleepthumb.jpg':
-            sendFile(res, 'public/img/sleepthumb.jpg')
+        case '/js/jquery.easing.1.3.js':
+            sendFile(res, 'js/jquery.easing.1.3.js', 'text/javascript')
             break
-        case '/img/babysleeping.jpg':
-            sendFile(res, 'public/img/babysleeping.jpg')
+        case '/js/magnific-popup-options.js':
+            sendFile(res, 'js/magnific-popup-options.js', 'text/javascript')
             break
-        case '/img/catsleeping.jpg':
-            sendFile(res, 'public/img/catsleeping.jpg')
+        case '/js/bootstrap.min.js':
+            sendFile(res, 'js/bootstrap.min.js', 'text/javascript')
             break
-        case '/img/dogsleep2.jpg':
-            sendFile(res, 'public/img/dogsleep2.jpg')
+        case '/js/jquery.waypoints.min.js':
+            sendFile(res, 'js/jquery.waypoints.min.js', 'text/javascript')
             break
-        case '/img/dogsleeping.jpg':
-            sendFile(res, 'public/img/dogsleeping.jpg')
+        case '/js/owl.carousel.min.js':
+            sendFile(res, 'js/owl.carousel.min.js', 'text/javascript')
             break
-        case '/img/log-sleep.jpg':
-            sendFile(res, 'public/img/log-sleep.jpg')
+        case '/js/jquery.countTo.js':
+            sendFile(res, 'js/jquery.countTo.js', 'text/javascript')
             break
-        case '/img/yearner.jpg':
-            sendFile(res, 'public/img/yearner.jpg')
+        case '/js/jquery.magnific-popup.min.js':
+            sendFile(res, 'js/jquery.magnific-popup.min.js', 'text/javascript')
             break
-        case '/img/soldier.jpg':
-            sendFile(res, 'public/img/soldier.jpg')
+        case '/images/about.jpg':
+            sendFile(res, 'images/about.jpg', 'image/jpg')
             break
-        case '/img/freefaller.jpg':
-            sendFile(res, 'public/img/freefaller.jpg')
+        case '/images/about_narrow.jpg':
+            sendFile(res, 'images/about_narrow.jpg', 'image/jpg')
             break
-        case '/img/starfish.jpg':
-            sendFile(res, 'public/img/starfish.jpg')
+        case '/images/depressed.jpg':
+            sendFile(res, 'images/depressed.jpg', 'image/jpg')
             break
-        case '/img/fetal.jpg':
-            sendFile(res, 'public/img/fetal.jpg')
+        case '/images/depressedWomen.jpg':
+            sendFile(res, 'images/depressedWomen.jpg', 'image/jpg')
             break
-        case '/img/monster.jpg':
-            sendFile(res, 'public/img/monster.jpg')
+        case '/images/events.jpg':
+            sendFile(res, 'images/events.jpg', 'image/jpg')
+            break
+        case '/images/events_narrow.jpg':
+            sendFile(res, 'images/events_narrow.jpg', 'image/jpg')
+            break
+        case '/images/help.jpg':
+            sendFile(res, 'images/help.jpg', 'image/jpg')
+            break
+        case '/images/help2.jpg':
+            sendFile(res, 'images/help2.jpg', 'image/jpg')
+            break
+        case '/images/loader.jpg':
+            sendFile(res, 'images/loader.jpg', 'image/jpg')
+            break
+        case '/images/new_profile.jpg':
+            sendFile(res, 'images/new_profile.jpg', 'image/jpg')
+            break
+        case '/images/profile.jpg':
+            sendFile(res, 'images/profile.jpg', 'image/jpg')
             break
 
         default:
