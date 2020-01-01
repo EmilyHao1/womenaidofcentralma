@@ -43,6 +43,9 @@ var server = http.createServer (function (req, res) {
         case '/css/flexslider.css':
             sendFile(res, 'css/flexslider.css', 'text/css')
             break
+        case '/css/icomoon.css':
+            sendFile(res, 'css/icomoon.css', 'text/css')
+            break
         case '/css/magnific-popup.css':
             sendFile(res, 'css/maginfic-popup.css', 'text/css')
             break
