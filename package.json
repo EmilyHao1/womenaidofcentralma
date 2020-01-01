@@ -2,9 +2,9 @@
   "name": "womenaidofcentralma",
   "version": "1.0.0",
   "description": "this is the website for WomenAid of Central MA",
-  "main": "index.js",
+  "main": "server.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": ""
   },
   "repository": {
     "type": "git",
