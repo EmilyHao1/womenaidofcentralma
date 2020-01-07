@@ -5,6 +5,18 @@ WomenAid of Central MA
 AUTHOR:
 Emily Hao
 
+Website:
+https://womenaidofcentralma.herokuapp.com/index.html
+
+Heroku:
+https://dashboard.heroku.com/apps/womenaidofcentralma
+
+To Update Locally:
+git add .
+git commit -am "contact page"
+git push
+
+
 CREDITS:
 
 Bootstrap
